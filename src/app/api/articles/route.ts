@@ -26,7 +26,11 @@ export async function POST(req: Request) {
     ...articles,
   ];
 
-  articles = newArticles;
+  /** 
+   * here we update the articles table in the db,
+   * as I don't have any db connected so it is not going to be storing new articles 
+   * */
+
   return NextResponse.json<CreateArticleResponse>(newArticles);
 }
 
