@@ -9,15 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.9",
+    "@mui/styles": "^5.14.10",
+    "@tabler/icons-react": "^2.34.0",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "formik": "^2.4.5",
+    "framer-motion": "^10.16.4",
+    "fs": "^0.0.1-security",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "styled-components": "^6.0.7",
-    "typescript": "5.2.2"
+    "react-useheadroom": "^1.4.3",
+    "typescript": "5.2.2",
+    "yup": "^1.2.0"
   }
 }
